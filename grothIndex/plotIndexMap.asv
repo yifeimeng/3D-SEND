@@ -1,0 +1,26 @@
+function [ output_args ] = plotIndexMap()
+%UNTITLED11 Summary of this function goes here
+%   Detailed explanation goes here
+[fileName, pathName] = uigetfile('*.mat', 'Open a DP orientation database');
+fullName = strcat(pathName,fileName);
+load(fullName, 'dpOrientationMatrix');
+
+[fileName, pathName] = uigetfile('*.mat', 'Open a parameter array');
+fullName = strcat(pathName,fileName);
+load(fullName, 'gaugeArray');
+
+numSimuPattern = 500;
+shift = 1000;
+for i=1:1:numSimuPattern
+    currPatternIndex = shift + i;
+    xDMCoord = dpOrientationMatrix(currPatternIndex,1)+1;
+    yDMCoord = 59-dpOrientationMatrix(currPatternIndex,2)+1;
+    indexMap(yDMCoord,xDMCoord) = gaugeArray(i);
+end
+
+figure;
+imshow(indexMap);
+colormap hot;
+caxis([300,41]);
+end
+

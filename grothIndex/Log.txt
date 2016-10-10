@@ -1,0 +1,237 @@
+Version 3
+Total size 0 MB
+Read in 2.762470e-04 s
+
+- ApplicationBounds: struct  
+ 0 
+ 0 
+ 818 
+ 1600 
+
+- DocumentObjectList: 
+| - : 
+| | - AnnotationGroupList: 
+| | - AnnotationType: 20 
+| | - BackgroundMode: 1 
+| | - FillMode: 1 
+| | - ImageDisplayInfo: 
+| | | - BrightColor: struct  
+| | |  -1 
+| | |  -1 
+| | |  -1 
+| | | 
+| | | - Brightness: 5.000000e-01 
+| | | - CaptionOn: 0 
+| | | - CLUT: array of 256  --type:  struct structs 
+| | |  0 
+| | |  0 
+| | |  0 
+| | |  257 
+| | |  257 
+| | |  257 
+| | |  514 
+| | |  514 
+| | |  514 
+| | |  771 
+| | |  771 
+| | |  771 
+
+| | | - CLUTName: Greyscale 
+| | | - ComplexMode: 4 
+| | | - ComplexRange: 1000 
+| | | - Contrast: 5.000000e-01 
+| | | - ContrastMode: 1 
+| | | - DimensionLabels: 
+| | | | - :  
+| | | - DoAutoSurvey: 1 
+| | | - EstimatedMax: 0 
+| | | - EstimatedMin: 8.969313e+02 
+| | | - Gamma: 5.000000e-01 
+| | | - HighLimit: 8.969313e+02 
+| | | - IsInverted: 0 
+| | | - LowLimit: 0 
+| | | - MainSliceId: 
+| | | | - : 0 
+| | | - MinimumContrast: 0 
+| | | - SurveyTechique: 2 
+| | - ImageDisplayType: 1 
+| | - ImageSource: 0 
+| | - IsMoveable: 1 
+| | - IsSelectable: 1 
+| | - IsVisible: 1 
+| | - ObjectTags: 
+| | - Rectangle: struct  
+| |  0 
+| |  0 
+| |  360 
+| |  360 
+| | 
+| | - UniqueID: 8 
+- HasWindowPosition: 1 
+- Image Behavior: 
+| - DoIntegralZoom: 1 
+| - ImageDisplayBounds: struct  
+|  0 
+|  0 
+|  360 
+|  360 
+| 
+| - IsZoomedToWindow: 1 
+| - UnscaledTransform: 
+| | - Offset: struct  
+| |  0 
+| |  0 
+| | 
+| | - Scale: struct  
+| |  1 
+| |  1 
+| | 
+| - ViewDisplayID: 8 
+| - WindowRect: struct  
+|  0 
+|  0 
+|  374 
+|  361 
+| 
+| - ZoomAndMoveTransform: 
+| | - Offset: struct  
+| |  5.000000e-01 
+| |  7 
+| | 
+| | - Scale: struct  
+| |  1 
+| |  1 
+| | 
+- ImageList: 
+| - : 
+| | - ImageData: 
+| | | - Calibrations: 
+| | | | - Brightness: 
+| | | | | - Origin: 0 
+| | | | | - Scale: 1 
+| | | | | - Units:  
+| | | | - Dimension: 
+| | | | | - : 
+| | | | | | - Origin: 0 
+| | | | | | - Scale: 1 
+| | | | | | - Units:  
+| | | | | - : 
+| | | | | | - Origin: 0 
+| | | | | | - Scale: 1 
+| | | | | | - Units:  
+| | | | - DisplayCalibratedUnits: 1 
+| | | - Data: array of 4096  --type:  int32 
+| | | - DataType: 23 
+| | | - Dimensions: 
+| | | | - : 64 
+| | | | - : 64 
+| | | - PixelDepth: 4 
+| | - ImageTags: 
+| | - UniqueID: 
+| | | - : 1954221067 
+| | | - : 1931104694 
+| | | - : 1726173779 
+| | | - : 319162637 
+| - : 
+| | - ImageData: 
+| | | - Calibrations: 
+| | | | - Brightness: 
+| | | | | - Origin: 0 
+| | | | | - Scale: 1 
+| | | | | - Units:  
+| | | | - Dimension: 
+| | | | | - : 
+| | | | | | - Origin: 0 
+| | | | | | - Scale: 1 
+| | | | | | - Units:  
+| | | | | - : 
+| | | | | | - Origin: 0 
+| | | | | | - Scale: 1 
+| | | | | | - Units:  
+| | | | - DisplayCalibratedUnits: 1 
+| | | - Data: array of 144  --type:  float32 
+| | | 0 
+| | | 0 
+| | | 0 
+| | | 0 
+
+| | | - DataType: 2 
+| | | - Dimensions: 
+| | | | - : 12 
+| | | | - : 12 
+| | | - PixelDepth: 4 
+| | - ImageTags: 
+| | - UniqueID: 
+| | | - : 1551069635 
+| | | - : 116407648 
+| | | - : 957177307 
+| | | - : 1387360240 
+- ImageSourceList: 
+| - : 
+| | - ClassName: ImageSource:Simple 
+| | - Id: 
+| | | - : 0 
+| | - ImageRef: 1 
+- InImageMode: 1 
+- MinVersionList: 
+| - : 
+| | - RequiredVersion: 50659328 
+- NextDocumentObjectID: 9 
+- Page Behavior: 
+| - DoIntegralZoom: 0 
+| - IsZoomedToWindow: 0 
+| - LayedOut: 0 
+| - PageTransform: 
+| | - Offset: struct  
+| |  0 
+| |  0 
+| | 
+| | - Scale: struct  
+| |  1 
+| |  1 
+| | 
+| - RestoreImageDisplayBounds: struct  
+|  0 
+|  0 
+|  12 
+|  12 
+| 
+| - RestoreImageDisplayID: 8 
+| - TargetDisplayID: 4294967295 
+- PageSetup: 
+| - General: struct  
+|  1 
+|  1000 
+|  8500 
+|  11000 
+|  1000 
+|  1000 
+|  -1000 
+|  -1000 
+| 
+| - Win32: array of 60  --type:  uint8 
+| 6 
+| 0 
+| 0 
+| 0 
+
+| - Win32_DevMode: array of 1012  --type:  uint8 
+| - Win32_DevNames: array of 77  --type:  uint8 
+| 8 
+| 0 
+| 38 
+| 0 
+
+- SentinelList: 
+- Thumbnails: 
+| - : 
+| | - ImageIndex: 0 
+| | - SourceSize_Pixels: struct  
+| |  360 
+| |  360 
+| | 
+- WindowPosition: struct  
+ 90 
+ 32 
+ 464 
+ 393 
